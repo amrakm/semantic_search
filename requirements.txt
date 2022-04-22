@@ -1,0 +1,6 @@
+datasets==2.1.0
+pinecone==0.1.0
+pinecone_client==2.0.9
+sentence_transformers==2.2.0
+streamlit==1.8.1
+tqdm==4.64.0
