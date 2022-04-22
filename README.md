@@ -1,4 +1,4 @@
-# semantic_search
+# Semantic Search
 Template streamlit app to embed and search documents by text query
 
 to run the app:
