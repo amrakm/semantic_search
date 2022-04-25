@@ -3,15 +3,8 @@ import streamlit as st
 import pinecone
 from sentence_transformers import SentenceTransformer
 
-if os.environ.get('LOCAL_RUN'):
 
-    # initialize connection to Pinecone vector DB (app.pinecone.io for API key)
-    with open('./secret', 'r') as fp:
-        # get key from app.pinecone.io
-        API_KEY = fp.read()
-
-else:
-    API_KEY = st.secrets['pinecone_api_key']
+API_KEY = st.secrets['pinecone_api_key']
 
 @st.experimental_singleton
 def init_retriever():
