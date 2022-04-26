@@ -1,5 +1,8 @@
+tqdm==4.64.0
+numpy==1.19.2
 datasets==2.1.0
 pinecone_client
 sentence_transformers==2.2.0
 streamlit==1.8.1
-tqdm==4.64.0
+tensorflow_hub==0.12.0
+tensorflow
