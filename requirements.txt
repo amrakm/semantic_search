@@ -1,5 +1,4 @@
 datasets==2.1.0
-pinecone
 pinecone_client
 sentence_transformers==2.2.0
 streamlit==1.8.1
